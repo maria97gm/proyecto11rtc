@@ -1,0 +1,33 @@
+.series {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.titulo-series {
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .series {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .series {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .series {
+    grid-template-columns: 1fr;
+  }
+  .seriecard {
+    width: 320px;
+  }
+  .titulo-series {
+    font-size: 22px;
+  }
+}

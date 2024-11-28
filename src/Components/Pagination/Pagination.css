@@ -1,0 +1,30 @@
+.paginacion {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0 50px;
+}
+
+.paginacion button {
+  background: var(--color-subtitulos);
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: #fff;
+  font-family: 'Rubik';
+  text-transform: uppercase;
+  border: none;
+  font-size: 22px;
+}
+.paginacion button:hover {
+  background: var(--color-titulos);
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: #fff;
+  font-family: 'Rubik';
+  text-transform: uppercase;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}

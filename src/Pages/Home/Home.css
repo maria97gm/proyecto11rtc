@@ -1,0 +1,14 @@
+.home h2 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  color: var(--color-subtitulos);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}

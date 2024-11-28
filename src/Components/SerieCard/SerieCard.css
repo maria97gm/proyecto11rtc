@@ -1,0 +1,46 @@
+.seriecard {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid var(--color-subtitulos);
+  border-radius: 8px;
+  width: 240px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.seriecard img {
+  width: 100%;
+  border-radius: 4px;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.seriecard img:hover {
+  transform: scale(1.3);
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.seriecard h2 {
+  z-index: 10;
+  position: relative;
+  box-shadow: 4px 4px 10px #000000;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.seriecard h3 {
+  color: var(--color-subtitulos);
+  font-family: 'Rubik';
+  font-weight: 400;
+  padding: 30px 0;
+}
+
+@media (max-width: 480px) {
+  .seriecard {
+    width: 320px;
+  }
+  .seriecard img:hover {
+    transform: scale(1.2);}
+}

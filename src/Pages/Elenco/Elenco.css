@@ -1,0 +1,36 @@
+.vs {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.vs .real,
+.vs .fiction {
+  padding: 20px 0;
+}
+
+.vs h2 {
+  padding-bottom: 20px;
+}
+
+.vs h3 {
+  font-family: 'Rubik';
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: var(--color-subtitulos);
+}
+
+.vs img {
+  width: 300px;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 667px) {
+  .vs img {
+    max-width: 100px;
+  }
+}
